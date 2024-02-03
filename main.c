@@ -93,11 +93,12 @@ int passwordValidator(){
     int check=1;
     while(curr!=NULL){
 
-        Ecount++;
+        
         if(curr->val==0){
             check=0;
             return check;
         }
+        Ecount++;
         curr=curr->next;
     }return check;
     
